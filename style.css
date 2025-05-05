@@ -335,7 +335,64 @@ ul a {
 
 
 /** responsive web design **/
-@media (max-width: 380px) {
+@media only screen and (max-width: 400px) and (min-width: 100px) {
+    .navbar {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .nav-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-search {
+        width: 70%;
+    }
+
+    .panel {
+        width:100%;
+        height: 300px;
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+
+    .panel-all {
+        padding-top: 20px;
+    }
+
+    #a1, #a2, #a3, #a4, #a5 {
+        padding-top: 15px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .panel-deals {
+        padding-top: 20px;
+    }
+
+    .hero-section {
+        width:100%;
+        background-size:contain;
+        height: 160px;
+    }
+
+    .hero-message {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .hero-message a {
+        font-size: 0.7rem;
+    }
+
     .shop-section {
         display:block;
     }
@@ -354,4 +411,24 @@ ul a {
         height: 900px;
     }
 
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+
+    .box4 {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .minibox {
+         width: 40%;
+        
+      
+    }
+
+    .minibox-img {
+        height:40px;
+        background-size: cover;
+        height:70px;
+    }
 }
